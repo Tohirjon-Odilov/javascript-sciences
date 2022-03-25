@@ -1,0 +1,29 @@
+.main {
+    background: rgb(245, 237, 170);
+    transition: all 0.5s;
+    height: 200vh;
+}
+
+
+/* .main-container {
+    display: flex;
+    background: khaki;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444;
+    font-size: 50px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: rgb(243, 228, 89);
+    cursor: pointer;
+}
