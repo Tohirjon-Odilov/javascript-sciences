@@ -13,6 +13,9 @@
 */
 
 $(document).ready(function() {
+
+    // ! Show / hide
+
     $("#show-me").click(function() {
         $("h1").show("fast")
     })
@@ -37,6 +40,9 @@ $(document).ready(function() {
     $("#fadeTo").click(function() {
         $("h2").fadeTo("slow", 0.5)
     })
+    $("#fadeReturn").click(function() {
+        $("h2").fadeTo("slow", 1)
+    })
 
     // ! slide
 
@@ -49,5 +55,4 @@ $(document).ready(function() {
     $('#slideToggle').click(function() {
         $('h3').slideToggle(5000)
     })
-
 })
